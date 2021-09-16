@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIL SHEDULING</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body class="body">
+    <div class="wrapper">
+        <div class="nav">
+            <ul class="nav-list">
+                <li><button class="home-btn">HOME</button></li>
+                <li><button class="hist-btn">HISTORY</button></li>
+                <li><button class="new-btn" >NEW MAIL</button></li>
+            </ul>
+        </div>
+        <div class="mail-list">
+            <div class="searh">
+                <ul class="search-list">
+                    <li><input type="text" name="search" placeholder="search"></li>
+                    <li><button><img src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"/></button></li>
+                </ul>
+            </div>
+            <div class="mail-filter">
+                <ul>
+                    <li>
+                        <h2>INBOX</h2>
+                    </li>
+                    <li>
+                        <select name="filter" id="filter">
+                            <option value="All">All</option>
+                            <option value="New">Date added</option>
+                            <option value="unread">Unread</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+            <div class="mail-content">
+                <button>
+                    <ul>
+                        <li>
+                            <h4>name of comapny name of comapnyname of comapnyname of comapnyname of comapnyname of comapny</h4>
+                        </li>
+                        <li>
+                            <h4 style="color: rgb(221, 44, 44);">subject of mailname of comapnyname of comapnyname of comapnyname of comapnyname of comapnyname of comapny</h4>
+                        </li>
+                        <li>
+                            <h4 style="color: rgb(28, 230, 230);">08/08/2021</h4>
+                        </li>
+                    </ul>
+
+                </button>
+                <button>
+                    <ul>
+                        <li>
+                            <h4>name of comapny name of comapnyname of comapnyname of comapnyname of comapnyname of comapny</h4>
+                        </li>
+                        <li>
+                            <h4 style="color: rgb(221, 44, 44);">subject of mailname of comapnyname of comapnyname of comapnyname of comapnyname of comapnyname of comapny</h4>
+                        </li>
+                        <li>
+                            <h4 style="color: rgb(28, 230, 230);">08/08/2021</h4>
+                        </li>
+                    </ul>
+
+                </button>
+                <button>
+                    <ul>
+                        <li>
+                            <h4>name of comapny name of comapnyname of comapnyname of comapnyname of comapnyname of comapny</h4>
+                        </li>
+                        <li>
+                            <h4 style="color: rgb(221, 44, 44);">subject of mailname of comapnyname of comapnyname of comapnyname of comapnyname of comapnyname of comapny</h4>
+                        </li>
+                        <li>
+                            <h4 style="color: rgb(28, 230, 230);">08/08/2021</h4>
+                        </li>
+                    </ul>
+
+                </button>
+                <button>
+                    <ul>
+                        <li>
+                            <h4>name of comapny name of comapnyname of comapnyname of comapnyname of comapnyname of comapny</h4>
+                        </li>
+                        <li>
+                            <h4 style="color: rgb(221, 44, 44);">subject of mailname of comapnyname of comapnyname of comapnyname of comapnyname of comapnyname of comapny</h4>
+                        </li>
+                        <li>
+                            <h4 style="color: rgb(28, 230, 230);">08/08/2021</h4>
+                        </li>
+                    </ul>
+
+                </button>
+                <button>
+                    <ul>
+                        <li>
+                            <h4>name of comapny name of comapnyname of comapnyname of comapnyname of comapnyname of comapny</h4>
+                        </li>
+                        <li>
+                            <h4 style="color: rgb(221, 44, 44);">subject of mailname of comapnyname of comapnyname of comapnyname of comapnyname of comapnyname of comapny</h4>
+                        </li>
+                        <li>
+                            <h4 style="color: rgb(28, 230, 230);">08/08/2021</h4>
+                        </li>
+                    </ul>
+
+                </button>
+            </div>
+        </div>
+        <div class="new-mail hide">
+            <h1>New Mail</h1>
+            <ul>
+                <li>From:</li>
+                <li><input type="email" name="from" id="from"></li>
+            </ul>
+            <ul>
+                <li>To:</li>
+                <li><input type="email" name="to" id="to"></li>
+            </ul>
+            <ul>
+                <li><input type="text" name="sub" id="sub" placeholder="Subject"></li>
+                <li>Shedules for:</li>
+                <li>
+                    <select name="filter" id="filter">
+                        <option value="min">Every minute</option>
+                        <option value="week">Every week</option>
+                        <option value="month">Every month</option>
+                        <option value="year">Every year</option>
+                    </select>
+                </li>
+            </ul>
+            <textarea name="message" id="message" cols="134" rows="20" placeholder="You can type your message hear"></textarea>
+            <div class="btn">
+                <button type="button" class="btn btn-success">Success</button>
+                
+            </div>
+        </div>
+    </div>
+    <script src="main.js" ></script>
+</body>
+</html>
